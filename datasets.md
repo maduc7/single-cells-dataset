@@ -3,13 +3,12 @@
 This is a list of single cells datasets that are public.
 
 Dataset name | link | nb images | type | species | modalities | other
---- | --- | --- | --- | --- | --- 
+--- | --- | --- | --- | --- | --- | --- 
 BBBC (Broad Bioimage Benchmark Collection) [1] | [data](https://bbbc.broadinstitute.org/) | 11.425.066 images (52 sets) | cell and tissue | human, fly, mouse, sythetic cells, hamster, rat | fluorescent, DIC
 IDR (Image Data Resource) [2] | [data](https://idr.openmicroscopy.org/) | 13.113.214 images (112 studies) | cell and tissue  | human, mouse, fly, plant and fungal cells | super-resolution 3DSIM and dSTORM, high-content chemical and siRNA screening, whole-slide histopathology imaging and live imaging of human and fungal cells and intact mice
 HPA (Human Protein Atlas) [3] | [data](https://www.proteinatlas.org/) |  | cell and tissue | human | IF
 LIVECell [4] | [data](https://sartorius-research.github.io/LIVECell/) [data-code](https://github.com/sartorius-research/LIVECell) | >1.6 million cells (8 cells type) | cell (from cell culture) | human, mouse | light microscopy
 Cytokit [5] | [data](https://console.cloud.google.com/storage/browser/cytokit/datasets;tab=objects?prefix=&forceOnObjectsSortingFiltering=false) [code](https://github.com/hammerlab/cytokit) | | | | Multiplexed in-situ fluorescent imaging
-
 CEM500K [6] | [data](https://www.ebi.ac.uk/empiar/EMPIAR-10592/) [code](https://github.com/volume-em/cem-dataset) | 496.544 images | | | cellular EM | in-house data + Cell Image Library, open connectome project, EMPIAR
 
 # References
