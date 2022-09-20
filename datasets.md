@@ -2,12 +2,15 @@
 
 This is a list of single cells datasets that are public.
 
-Dataset name | link | nb images | type | species | modalities
+Dataset name | link | nb images | type | species | modalities | other
 --- | --- | --- | --- | --- | --- 
 BBBC (Broad Bioimage Benchmark Collection) [1] | [data](https://bbbc.broadinstitute.org/) | 11.425.066 images (52 sets) | cell and tissue | human, fly, mouse, sythetic cells, hamster, rat | fluorescent, DIC
 IDR (Image Data Resource) [2] | [data](https://idr.openmicroscopy.org/) | 13.113.214 images (112 studies) | cell and tissue  | human, mouse, fly, plant and fungal cells | super-resolution 3DSIM and dSTORM, high-content chemical and siRNA screening, whole-slide histopathology imaging and live imaging of human and fungal cells and intact mice
 HPA (Human Protein Atlas) [3] | [data](https://www.proteinatlas.org/) |  | cell and tissue | human | IF
-LIVECell [4] | [data](https://sartorius-research.github.io/LIVECell/) | >1.6 million cells (8 cells type) | cell (from cell culture) | human, mouse | light microscopy
+LIVECell [4] | [data](https://sartorius-research.github.io/LIVECell/) [data-code](https://github.com/sartorius-research/LIVECell) | >1.6 million cells (8 cells type) | cell (from cell culture) | human, mouse | light microscopy
+Cytokit [5] | [data](https://console.cloud.google.com/storage/browser/cytokit/datasets;tab=objects?prefix=&forceOnObjectsSortingFiltering=false) [code](https://github.com/hammerlab/cytokit) | | | | Multiplexed in-situ fluorescent imaging
+
+CEM500K [6] | [data](https://www.ebi.ac.uk/empiar/EMPIAR-10592/) [code](https://github.com/volume-em/cem-dataset) | 496.544 images | | | cellular EM | in-house data + Cell Image Library, open connectome project, EMPIAR
 
 # References
 
@@ -19,6 +22,12 @@ LIVECell [4] | [data](https://sartorius-research.github.io/LIVECell/) | >1.6 mil
 
 [[4](https://www.nature.com/articles/s41592-021-01249-6#data-availability)] Edlund, C., Jackson, T.R., Khalid, N., Bevan, N., Dale, T., Dengel, A., Ahmed, S., Trygg, J. and Sjögren, R., 2021. LIVECell—A large-scale dataset for label-free live cell segmentation. Nature methods, 18(9), pp.1038-1045.
 
+[[5](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3055-3)] Czech, E., Aksoy, B.A., Aksoy, P. and Hammerbacher, J., 2019. Cytokit: a single-cell analysis toolkit for high dimensional fluorescent microscopy imaging. BMC bioinformatics, 20(1), pp.1-13.
+
+[[6](https://elifesciences.org/articles/65894)] Conrad, R. and Narayan, K., 2021. CEM500K, a large-scale heterogeneous unlabeled cellular electron microscopy image dataset for deep learning. Elife, 10, p.e65894.
 
 ? only human ? or also drosophila, fungi, mice, etc?
+
 ? IDR: Higher-level groupings phenotype: altered cell number, cell component number, cell cycle phase, cell cycle, cell morphology, cell population morphology, cell projection, cellular component, cyctoskeletal, nuclear, protein localization, other
+
+? other to check: https://www.allencell.org/data-downloading.html#sectionLabelFreeTrainingData, http://www.cellimagelibrary.org/pages/datasets, 
