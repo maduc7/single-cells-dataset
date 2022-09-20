@@ -7,6 +7,7 @@ Dataset name | link | nb images | type | species | modalities
 BBBC (Broad Bioimage Benchmark Collection) [1] | [data](https://bbbc.broadinstitute.org/) | 11.425.066 images (52 sets) | cell and tissue | human, fly, mouse, sythetic cells, hamster, rat | fluorescent, DIC
 IDR (Image Data Resource) [2] | [data](https://idr.openmicroscopy.org/) | 13.113.214 images (112 studies) | cell and tissue  | human, mouse, fly, plant and fungal cells | super-resolution 3DSIM and dSTORM, high-content chemical and siRNA screening, whole-slide histopathology imaging and live imaging of human and fungal cells and intact mice
 HPA (Human Protein Atlas) [3] | [data](https://www.proteinatlas.org/) |  | cell and tissue | human | IF
+LIVECell [4] | [data](https://sartorius-research.github.io/LIVECell/) | >1.6 million cells (8 cells type) | cell (from cell culture) | human, mouse | light microscopy
 
 # References
 
@@ -15,6 +16,8 @@ HPA (Human Protein Atlas) [3] | [data](https://www.proteinatlas.org/) |  | cell 
 [[2](https://www.nature.com/articles/nmeth.4326?report=reader)] Williams, E., Moore, J., Li, S.W., Rustici, G., Tarkowska, A., Chessel, A., Leo, S., Antal, B., Ferguson, R.K., Sarkans, U. and Brazma, A., 2017. Image Data Resource: a bioimage data integration and publication platform. Nature methods, 14(8), pp.775-781.
 
 [[3](https://www.science.org/doi/full/10.1126/science.aal3321)] Thul, P.J., Åkesson, L., Wiking, M., Mahdessian, D., Geladaki, A., Ait Blal, H., Alm, T., Asplund, A., Björk, L., Breckels, L.M. and Bäckström, A., 2017. A subcellular map of the human proteome. Science, 356(6340), p.eaal3321.
+
+[[4](https://www.nature.com/articles/s41592-021-01249-6#data-availability)] Edlund, C., Jackson, T.R., Khalid, N., Bevan, N., Dale, T., Dengel, A., Ahmed, S., Trygg, J. and Sjögren, R., 2021. LIVECell—A large-scale dataset for label-free live cell segmentation. Nature methods, 18(9), pp.1038-1045.
 
 
 ? only human ? or also drosophila, fungi, mice, etc?
